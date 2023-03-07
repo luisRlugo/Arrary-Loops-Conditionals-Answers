@@ -6,7 +6,7 @@ for (let i = 1; i <= 20; i++) {
   console.log(i);
 }
 
-console.log("==============================");
+console.log("============================================================");
 
 ////////////////////////////////
 // Get Even
@@ -19,8 +19,7 @@ for (let i = 0; i <= 200; i++) {
   }
 }
 
-console.log("==============================");
-
+console.log("============================================================");
 ////////////////////////////////
 // Fizz Buzz
 ////////////////////////////////
@@ -41,28 +40,53 @@ for (let i = 1; i <= 100; i++) {
   }
 }
 
-console.log("==============================");
-
+console.log("============================================================");
 ////////////////////////////////
 // Wild Wild Life
 ////////////////////////////////
+// Use the following arrays to answer the questions below (name,species ,age, hometown):
+// You should be modifying the elements by accessing them. It is up to you which methods to use.
 
+const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"];
+const sharky = ["Sharky", "shark", 20, "Left Coast"];
+const plantee = ["Plantee", "plant", 5000, "Mordor"];
+const porgee = ["Porgee", "Porg", 186, "Ahch-To"];
+const dart = ["D'Art", "Demogorgan Dog", 2, "Upside Down"];
+
+// 1. Plantee just had her birthday; change Plantee's array to reflect her being a year older.
+let planteAge = plantee[2];
+plantee[2] = 5001;
+console.log(plantee);
+
+// 2. Change Wolfy's hometown from "Yukon Territory" to "Gotham City".
+wolfy.splice(3, 1, "Gotham City"); // .splice(start, deleteCount, item1) <--Syntax
+console.log(wolfy);
+
+// 3. Give D'Art a second hometown by adding "Hawkins"
+dart.push("Hawkins");
+console.log(dart);
+
+// 4. Porgee decides that Wolfy can't be named "Wolfy" anymore. Remove "Wolfy" from the wolfyarray and replace it with "Gameboy".
+wolfy.splice(0, 1, "Gameboy");
+console.log(wolfy);
+
+console.log("============================================================");
 ////////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////////
-
+console.log("============================================================");
 ////////////////////////////////
 // Methods, Revisited
 ////////////////////////////////
-
+console.log("============================================================");
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
-
+console.log("============================================================");
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
-
+console.log("============================================================");
 ////////////////////////////////
 //  Find the Median
 ////////////////////////////////
