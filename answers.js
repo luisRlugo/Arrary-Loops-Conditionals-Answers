@@ -74,6 +74,14 @@ console.log("============================================================");
 ////////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////////
+// 1. Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
+TMNT = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+// 2. Use a for of loop(not a typo - try it out! Try a for ofloop) to call toUpperCase()on each of them and print out the result.
+for (const element of TMNT) {
+  console.log(element.toUpperCase());
+}
+
 console.log("============================================================");
 ////////////////////////////////
 // Methods, Revisited
